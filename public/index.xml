@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Long Posts on @George@RCsocial.net</title>
+    <link>https://example.org/</link>
+    <description>Recent content in Long Posts on @George@RCsocial.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024-03-29: Good Friday</title>
+      <link>https://example.org/post/2024-03-29/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/post/2024-03-29/</guid>
+      <description>#GospelToday (Jn 18:1 &amp;ndash; 19:42) When he had said this, Jesus went out with his disciples across the Kidron valley to where there was a garden, into which he and his disciples entered.&#xA;Judas his betrayer also knew the place, because Jesus had often met there with his disciples. So Judas got a band of soldiers and guards from the chief priests and the Pharisees and went there with lanterns, torches, and weapons.</description>
+    </item>
+  </channel>
+</rss>

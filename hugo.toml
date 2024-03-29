@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '@George@RCsocial.net'
+theme = 'ananke'
+
+[taxonomies]
+category = "Posts"
+
+[[menu.main]]
+name = "Return to RCsocial.net"
+url = "https://RCsocial.net"
+weight = 10
