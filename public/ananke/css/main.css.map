@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/gsipe/fp/clients/RC_Social/hugo/long-posts",
+	"sourceRoot": "/nas/devhost/fp/clients/RC_Social/hugo/long-posts",
 	"sources": [
 		"ananke/css/main.css"
 	],
