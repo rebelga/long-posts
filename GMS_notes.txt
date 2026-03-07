@@ -4,18 +4,18 @@ This default directory structure is created by:
 
 	hugo new site long-posts
 
-The anake theme goes in themes/ .
+The ananke theme goes in themes/ (rename it "ananke").
 
 My content is in content/ and in static/images/ .
 
 My configuration is in hugo.toml (original in hugo.toml.orig).
 
-I have modified the anake theme with index.html override in layouts/ :
+I have modified the ananke theme with index.html override in layouts/ :
 
 	- add "Recent Posts" <h1> header as in earlier versions
 
 	- add "All Posts" button which is supposed to be there but
-	  broken in this anake version (2.12.1)
+	  broken in this ananke version (2.12.1)
 
 Test with:
 
