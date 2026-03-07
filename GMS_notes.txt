@@ -2,16 +2,30 @@ Upgrade /local/bin/hugo from the github repo.  Get the "extended" version.
 
 This default directory structure is created by:
 
-	hugo new site long-posts
+	hugo new site long-posts && cd long-posts
 
-The ananke theme goes in themes/ (rename it "ananke").
+Complete my setup:
 
-My content is in content/ and in static/images/ .
+	mkorigf hugo.toml
 
-My configuration is in hugo.toml (original in hugo.toml.orig).
+	cp -rp ../o2/.git* ../o2/hugo.toml .
+
+	hugo mod init github.com/rebelga/long-posts
+
+	hugo mod tidy
+
+	hugo mod get github.com/theNewDynamic/gohugo-theme-ananke/v2
+
+	ln -s ~/go/pkg/mod/github.com/the\!new\!dynamic/gohugo-theme-ananke/v2\@v2.12.1 ananke
+
+My content is in content/ and in static/images/:
+
+	cp -rpv ../o2/content ../o2/static .
 
 I have modified the ananke theme with index.html override in layouts/ :
 
+	cp -rpv ../o2/layouts .
+	
 	- add "Recent Posts" <h1> header as in earlier versions
 
 	- add "All Posts" button which is supposed to be there but
@@ -19,7 +33,7 @@ I have modified the ananke theme with index.html override in layouts/ :
 
 Test with:
 
-	- optional:  rm -rf public/ (it will be rebuilt)
+	- rm -rf public/ (it will be rebuilt)
 
 	- hugo server -D (automatically rebuilds on any changes)
 
@@ -27,9 +41,7 @@ Test with:
 
 When ready to upgrade:
 
-	- optional:  rm -rf public/ (it will be rebuilt)
-
-	- hugo (updates public/ if necessary)
+	- rebuild public:  rm -rf public; hugo
 
 	- update git
 

@@ -1,12 +1,15 @@
 baseURL = '/'
-languageCode = 'en-us'
 title = '@George@RCsocial.net'
-theme = 'ananke'
+languageCode = 'en-us'
+
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
 
 [taxonomies]
-category = "Posts"
+  category = "Posts"
 
 [[menu.main]]
-name = "Return to RCsocial.net"
-url = "https://RCsocial.net"
-weight = 10
+  name = "Return to RCsocial.net"
+  url = "https://RCsocial.net"
+  weight = 10
