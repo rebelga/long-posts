@@ -32,6 +32,7 @@ I have modified the ananke theme with index.html override in layouts/ :
 	  broken in this ananke version (2.12.1)
 
 	- add twitter:card partial for "summary_large_image" (for Mastodon)
+	  also add twitter:image and add og:image
 
 Test with:
 
