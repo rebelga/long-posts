@@ -8,7 +8,7 @@ Complete my setup:
 
 	mkorigf hugo.toml
 
-	cp -rp ../o2/.git* ../o2/hugo.toml .
+	cp -rp ../old/.git* ../old/hugo.toml .
 
 	hugo mod init github.com/rebelga/long-posts
 
@@ -20,16 +20,18 @@ Complete my setup:
 
 My content is in content/ and in static/images/:
 
-	cp -rpv ../o2/content ../o2/static .
+	cp -rpv ../old/content ../old/static .
 
 I have modified the ananke theme with index.html override in layouts/ :
 
-	cp -rpv ../o2/layouts .
+	cp -rpv ../old/layouts .
 	
 	- add "Recent Posts" <h1> header as in earlier versions
 
 	- add "All Posts" button which is supposed to be there but
 	  broken in this ananke version (2.12.1)
+
+	- add twitter:card partial for "summary_large_image" (for Mastodon)
 
 Test with:
 
